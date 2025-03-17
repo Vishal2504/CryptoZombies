@@ -1,0 +1,103 @@
+/* styles.css */
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Centering content */
+  #txStatus, #zombies {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Zombie container styling */
+  .zombie {
+    background-color: #fff;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 330px;
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  .zombie ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .zombie li {
+    padding: 5px 0;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  
+  
+  /* Input field and container for change name */
+  .change-name-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #newZombieName {
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+  }
+  
+  /* Adjusting container for buttons */
+  button {
+    margin: 10px;
+  }
+  
+  /* Centering the page content */
+  h1 {
+    color: #333;
+    font-size: 24px;
+  }
+  
+  #txStatus {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .AllButtons {
+    height: 100px;
+    width: 1100px;
+    display: flex;
+    justify-content: center; /* Centers buttons horizontally */
+    align-items: center; /* Centers buttons vertically */
+    gap: 15px; /* Adds spacing between buttons */
+    margin: 0 auto; /* Centers the div itself */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+  
